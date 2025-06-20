@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Recogni Consulting Services</title>
+  <title>TechComm Services</title>
   <!-- Google Font: Pixel-style -->
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
   <style>
@@ -16,7 +16,7 @@
       text-align: center;
       line-height: 1.4;
     }
-    a { text-decoration: none; color: #0ff; }
+    a { text-decoration: none; color: #FFA500; }
     img { image-rendering: pixelated; }
 
     /* Container */
@@ -24,31 +24,37 @@
 
     /* Header */
     header { padding: 2rem 0; }
-    header h1 { font-size: 2rem; color: #0ff; margin-bottom: 1rem; }
-    header p { font-size: 1rem; }
+    header h1 { font-size: 2rem; color: #FFA500; margin-bottom: 1rem; }
+    header p { font-size: 1rem; color: #FFFF00; }
 
-    /* Sections */n    section { margin: 4rem 0; }
+    /* Sections */
+    section { margin: 4rem 0; }
 
     /* Hero */
-    #hero { background: url('pixel-bg.png') center/cover no-repeat;
+    #hero {
+      background: url('pixel-bg.png') center/cover no-repeat;
       padding: 4rem 0;
-      color: #0ff;
+      color: #FFFF00;
     }
     #hero h2 { font-size: 1.5rem; margin-bottom: 1rem; }
     #hero p { font-size: 0.8rem; }
-    #hero .btn { display: inline-block;
+    #hero .btn {
+      display: inline-block;
       margin-top: 1rem;
       padding: 0.8rem 1.6rem;
-      background: #0ff;
+      background: #FFA500;
       color: #111;
-      border: 4px solid #eee;
-      box-shadow: 4px 4px 0 #0ff;
+      border: 4px solid #FFFF00;
+      box-shadow: 4px 4px 0 #FFFF00;
       font-size: 0.8rem;
     }
 
     /* Services */
-    #services { }
-    #services h3 { font-size: 1.2rem; color: #0ff; margin-bottom: 2rem; }
+    #services h3 {
+      font-size: 1.2rem;
+      color: #FFA500;
+      margin-bottom: 2rem;
+    }
     .services-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -57,7 +63,7 @@
     .service-item {
       background: #222;
       padding: 1.5rem;
-      border: 4px solid #0ff;
+      border: 4px solid #FFA500;
     }
     .service-item img {
       width: 64px;
@@ -66,6 +72,7 @@
     }
 
     /* Contact */
+    #contact h3 { color: #FFA500; }
     #contact form {
       display: flex;
       flex-direction: column;
@@ -76,7 +83,7 @@
       max-width: 500px;
       padding: 1rem;
       margin: 0.5rem 0;
-      border: 4px solid #0ff;
+      border: 4px solid #FFA500;
       background: #111;
       color: #eee;
       font-family: inherit;
@@ -86,27 +93,31 @@
     #contact button {
       padding: 1rem 2rem;
       margin-top: 1rem;
-      background: #0ff;
+      background: #FFA500;
       color: #111;
-      border: 4px solid #eee;
-      box-shadow: 4px 4px 0 #0ff;
+      border: 4px solid #FFFF00;
+      box-shadow: 4px 4px 0 #FFFF00;
       font-size: 0.8rem;
     }
 
     /* Footer */
-    footer { margin-top: 4rem; font-size: 0.7rem; color: #555; }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.7rem;
+      color: #999;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <header>
-      <h1>Recogni Consulting</h1>
-      <p>Innovative AI solutions for your business</p>
+      <h1>TechComm Services</h1>
+      <p>A pixel-style demo landing page for MA course practice</p>
     </header>
 
     <section id="hero">
-      <h2>Level Up Your Operations</h2>
-      <p>We deliver pixel-perfect AI integration, data analytics, and custom development.</p>
+      <h2>Welcome to Your Practice Project</h2>
+      <p>This site showcases Technical Writing, UX Writing, and Localization services.</p>
       <a href="#contact" class="btn">Get in Touch</a>
     </section>
 
@@ -114,32 +125,32 @@
       <h3>Our Services</h3>
       <div class="services-grid">
         <div class="service-item">
-          <img src="pixel-ai.png" alt="AI icon" />
-          <p>AI Consultation</p>
+          <img src="pixel-writing.png" alt="Technical Writing icon" />
+          <p>Technical Writing</p>
         </div>
         <div class="service-item">
-          <img src="pixel-data.png" alt="Data icon" />
-          <p>Data Analytics</p>
+          <img src="pixel-ux.png" alt="UX Writing icon" />
+          <p>UX Writing</p>
         </div>
         <div class="service-item">
-          <img src="pixel-dev.png" alt="Dev icon" />
-          <p>Custom Development</p>
+          <img src="pixel-localization.png" alt="Localization icon" />
+          <p>Localization</p>
         </div>
       </div>
     </section>
 
     <section id="contact">
-      <h3>Contact Us</h3>
+      <h3>Contact</h3>
       <form action="#">
         <input type="text" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" rows="4" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
+        <button type="submit">Send</button>
       </form>
     </section>
 
     <footer>
-      <p>&copy; 2025 Recogni Consulting. All rights reserved.</p>
+      <p>&copy; 2025 TechComm Services. All rights reserved.</p>
     </footer>
   </div>
 </body>
